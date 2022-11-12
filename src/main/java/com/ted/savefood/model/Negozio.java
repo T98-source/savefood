@@ -9,7 +9,7 @@ public class Negozio {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
 
-    @Column(name = "nome")
+    @Column(name = "nom")
     private String nome;
 
     @Column(name = "indirizzo")
